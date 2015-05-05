@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.looper.loop.PreferencesFragment"
+        android:id="@+id/userdetails">
+
+
+        <ScrollView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+
+
+
+                <!-- Login Form -->
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"
+
+                    android:weightSum="1">
+
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="1"
+                        android:shrinkColumns="0"
+                        >
+                        <TableRow
+                            android:layout_marginTop="20dip"
+                        android:layout_marginBottom="20dip">
+                            <TextView
+
+                                android:id="@+id/name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="Name"
+                                android:textColor="#372c24"
+                                />
+                            <TextView android:id="@+id/nameanswer"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:singleLine="true"
+                                android:ellipsize="none"
+                                android:gravity="right"
+                                android:text="Name"
+                                android:textColor="#372c24"
+                                />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_marginTop="20dip"
+                            android:layout_marginBottom="20dip">
+                            <TextView android:id="@+id/userid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="User-ID"
+                                android:textColor="#372c24"
+                                />
+                            <TextView android:id="@+id/useridanswer"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:singleLine="true"
+                                android:ellipsize="none"
+                                android:gravity="right"
+                                android:text="Name"
+                                android:textColor="#372c24"
+                                />
+                        </TableRow>
+
+
+
+                    <TableRow
+                    android:layout_marginTop="20dip"
+                    android:layout_marginBottom="20dip">
+                    <TextView android:id="@+id/des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="Designation"
+                        android:textColor="#372c24"
+                        />
+                    <TextView android:id="@+id/desanswer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:singleLine="true"
+                        android:ellipsize="none"
+                        android:gravity="right"
+                        android:text="Name"
+                        android:textColor="#372c24"
+                        />
+                </TableRow>
+
+                        <TableRow
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dip">
+                            <TextView android:id="@+id/animalcount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:text="Animal Count"
+                                android:textColor="#372c24"
+                                />
+                            <TextView android:id="@+id/animalcountanswer"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:singleLine="true"
+                                android:ellipsize="none"
+                                android:gravity="right"
+                                android:text="Name"
+                                android:textColor="#372c24"
+                                />
+                        </TableRow>
+            </TableLayout>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+</FrameLayout>

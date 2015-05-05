@@ -1,0 +1,256 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent"
+
+    android:id="@+id/maincontent"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:nestedScrollingEnabled="false">
+
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tabanimal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/i2"
+                    android:orientation="vertical">
+
+
+
+                    <Button
+                        android:layout_marginTop="100dp"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="Create"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:id="@+id/bCreate"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:onClick="create"/>
+
+                    <Button
+                        android:layout_marginTop="50dp"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="Update"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:id="@+id/bUpdate"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:onClick="update"/>
+
+                    <Button
+                        android:layout_marginTop="50dp"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="Delete"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:id="@+id/bDelete"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:onClick="delete"/>
+                    <Button
+                        android:layout_marginTop="50dp"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="Track Details"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:id="@+id/btrack"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:onClick="track"/>
+
+
+                </LinearLayout>
+
+
+
+                <ScrollView
+                    android:id="@+id/tabuserdetail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+
+
+
+
+                        <!-- Login Form -->
+                        <LinearLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dip"
+
+                            android:weightSum="1">
+
+
+                            <TableLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:stretchColumns="1"
+                                android:shrinkColumns="0"
+                                >
+                                <TableRow
+                                    android:layout_marginTop="20dip"
+                                    android:layout_marginBottom="20dip">
+                                    <TextView
+
+                                        android:id="@+id/name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="Name"
+                                        android:textColor="#372c24"
+                                        />
+                                    <TextView android:id="@+id/nameanswer"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:ellipsize="none"
+                                        android:gravity="right"
+                                        android:text="Name"
+                                        android:textColor="#372c24"
+                                        />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_marginTop="20dip"
+                                    android:layout_marginBottom="20dip">
+                                    <TextView android:id="@+id/userid"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="User-ID"
+                                        android:textColor="#372c24"
+                                        />
+                                    <TextView android:id="@+id/useridanswer"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:ellipsize="none"
+                                        android:gravity="right"
+                                        android:text="Name"
+                                        android:textColor="#372c24"
+                                        />
+                                </TableRow>
+
+
+
+                                <TableRow
+                                    android:layout_marginTop="20dip"
+                                    android:layout_marginBottom="20dip">
+                                    <TextView android:id="@+id/des"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="Designation"
+                                        android:textColor="#372c24"
+                                        />
+                                    <TextView android:id="@+id/desanswer"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:ellipsize="none"
+                                        android:gravity="right"
+                                        android:text="Name"
+                                        android:textColor="#372c24"
+                                        />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="20dip">
+                                    <TextView android:id="@+id/animalcount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:ellipsize="end"
+                                        android:singleLine="true"
+                                        android:text="Animal Count"
+                                        android:textColor="#372c24"
+                                        />
+                                    <TextView android:id="@+id/animalcountanswer"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:singleLine="true"
+                                        android:ellipsize="none"
+                                        android:gravity="right"
+                                        android:text="Name"
+                                        android:textColor="#372c24"
+                                        />
+                                </TableRow>
+                            </TableLayout>
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                </ScrollView>
+
+
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TabWidget>
+
+
+</LinearLayout>
+

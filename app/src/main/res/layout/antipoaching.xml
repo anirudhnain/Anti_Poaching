@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.looper.loop.PreferencesFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to The Anti-Poaching System"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/i2"
+        android:layout_marginTop="50dp" />
+
+</FrameLayout>

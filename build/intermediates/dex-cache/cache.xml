@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-0a76e14698f2ec9511a2f9706a5c07818c2a8e30.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-6b0e5dc05827c68563bd7dea2581264f4fb1ecdf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-1a87f9398aa659dbbbc3c836de3a63b3c65322f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-186df39a0bb8873b69fec90838aabb69330d71a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-f581d5a96e4b91374342da65b87afbefb1494637.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-3f6e569fb0cc4fb1234fd6bfd16ed11f0ad9e355.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-369b980f86221c49f98f4ba975d11a1ce207ab4a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-8532c944beb95048ffc1876a010045f95a861d74.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-e91e3c0c02bed55f40b410565587318a7196bb12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-6bbf43225ac6422f96ca44cd584b01d58abd529f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-67af87a13327e9203c4667ea27b03b438f2538e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-e7b3635a2708eeac27d17c8b9fe93fc2fa109d69.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-103194fb46e00a173aa769b4eddee8a206c8a138.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-708531329328120feb40556ed5f8a886f3d3b1c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-7055bb9a19efba8edba581b987576d7297e8464c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-38b146ff4a578682abc779f842cf4dc415b13725.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-f9e948a97b68da1448dabb45475bd6198072017c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-d2fbc5b18674f0cf9ce6cb8dbf257439690d3c50.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\gson-2.3.1-62d4ff5c4a0c68fa4ffeab79aec51c767729236f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-63505e6f5d9bf4f21d5742ece401dae3cc824f86.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-fd4739c28168c009eb3492738a4e291333471595.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6568fe5990403d4134e43c9884e8c317aad7217c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-4a0b099b249263125fc5f89e0d89d5e92e2e1936.jar" />
+    </item>
+    <item
+        jar="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\Anirudh-PC\AndroidStudioProjects\Anti_Poaching\app\build\intermediates\pre-dexed\debug\classes-ea988d970ed52ec7cb2aa018d5403fb69a0d951a.jar" />
+    </item>
+
+</items>

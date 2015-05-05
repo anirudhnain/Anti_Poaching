@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+
+
+        <!-- Login Form -->
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+
+            android:weightSum="1"
+            android:id="@+id/asdas">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Animal Details"
+                android:textSize="40dp"
+                android:layout_marginBottom="20dip"
+
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/tvDisplay"
+                />
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Animal Id"/>
+            <EditText android:layout_width="fill_parent"
+                android:id="@+id/tanimalid"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:editable="false"/>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="User Id"/>
+            <EditText android:layout_width="fill_parent"
+                android:id="@+id/tuserid"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                />
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Species"/>
+            <EditText android:layout_width="fill_parent"
+                android:id="@+id/tuspecies"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"/>
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Gender"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="10dip"/>
+
+            <Spinner
+                android:id="@+id/SpinnerGenderType"
+                android:layout_height="wrap_content"
+                android:prompt="@string/gender"
+                android:layout_width="fill_parent"
+                android:entries="@array/gender"
+                android:drawSelectorOnTop="true"
+                android:layout_weight="0.25"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip">
+            </Spinner>
+
+
+
+
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Health Details"/>
+            <EditText android:layout_width="fill_parent"
+                android:id="@+id/tuhealth"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"/>
+
+            <Button android:id="@+id/bupdate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Update"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:onClick="notify"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+
